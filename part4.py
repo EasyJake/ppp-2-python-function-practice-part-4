@@ -47,17 +47,17 @@ if __name__ == '__main__':
     print(max_num(100, 50, 1))
     print(max_num(15, 30, 2))
 
-    print(mult_list([1, 2, 3]))
+    print(mult_list([1, 11, 111]))
     print(mult_list([]))
-    print(mult_list([15]))
+    print(mult_list([23]))
 
     print(rev_string(""))
-    print(rev_string("apple"))
-    print(rev_string("mt string"))
+    print(rev_string("tacos"))
+    print(rev_string("Mt Shasta"))
 
     print(num_within(3, 2, 4))
-    print(num_within(3, 1, 3))
-    print(num_within(10, 2, 5))
+    print(num_within(42, 21, 42))
+    print(num_within(11, 5, 111))
 
-    pascal(2)
-    pascal(5)
+    pascal(3)
+    pascal(7)
